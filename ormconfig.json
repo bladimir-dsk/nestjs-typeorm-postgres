@@ -1,0 +1,15 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "bladipostgres",
+    "password": "CABJ850902.",
+    "database": "db_postgres",
+    "entities": ["src/**/*.entity.ts"],
+    "synchronize": false,
+    "migrationsTableName": "migrations",
+    "migrations": ["src/database/migrations/*.ts"],
+    "cli": {
+      "migrationsDir": "src/database/migrations"
+    }
+  }
